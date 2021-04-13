@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1433
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kyungil", "Kyungil\Kyungil.vcxproj", "{AFA3B710-AB40-4D3A-BEDA-3FE84DCA2579}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Welcome_to_C++_for_the_first_time", "Welcome_to_C++_for_the_first_time\Welcome_to_C++_for_the_first_time.vcxproj", "{4BB05DAD-A191-48D1-A085-A9C4B76A16AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{AFA3B710-AB40-4D3A-BEDA-3FE84DCA2579}.Release|x64.Build.0 = Release|x64
 		{AFA3B710-AB40-4D3A-BEDA-3FE84DCA2579}.Release|x86.ActiveCfg = Release|Win32
 		{AFA3B710-AB40-4D3A-BEDA-3FE84DCA2579}.Release|x86.Build.0 = Release|Win32
+		{4BB05DAD-A191-48D1-A085-A9C4B76A16AA}.Debug|x64.ActiveCfg = Debug|x64
+		{4BB05DAD-A191-48D1-A085-A9C4B76A16AA}.Debug|x64.Build.0 = Debug|x64
+		{4BB05DAD-A191-48D1-A085-A9C4B76A16AA}.Debug|x86.ActiveCfg = Debug|Win32
+		{4BB05DAD-A191-48D1-A085-A9C4B76A16AA}.Debug|x86.Build.0 = Debug|Win32
+		{4BB05DAD-A191-48D1-A085-A9C4B76A16AA}.Release|x64.ActiveCfg = Release|x64
+		{4BB05DAD-A191-48D1-A085-A9C4B76A16AA}.Release|x64.Build.0 = Release|x64
+		{4BB05DAD-A191-48D1-A085-A9C4B76A16AA}.Release|x86.ActiveCfg = Release|Win32
+		{4BB05DAD-A191-48D1-A085-A9C4B76A16AA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

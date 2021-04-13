@@ -144,37 +144,37 @@ int main()
 
 	// 변수 선언 & 사용자 입력
 	int Computer_Random_Vlaue = rand() % 3;
-	int User_Value;
+	int User_Ball;
 	cout << "어떤 수를 입력하시겠습니까?" << endl;
 	cout << "1. 바위 2. 가위 3. 보" << endl;
-	cin >> User_Value;
+	cin >> User_Ball;
 
 	// switch 문을 이용한 결과 출력 :)
 	switch (Computer_Random_Vlaue)
 	{
 	case 0:
 		cout << "컴퓨터는 바위를 냈습니다" << endl;
-		if (User_Value == 1)
+		if (User_Ball == 1)
 			cout << "비겼습니다." << endl;
-		else if (User_Value == 2)
+		else if (User_Ball == 2)
 			cout << "당신이 졌습니다" << endl;
 		else
 			cout << "당신이 이겼습니다" << endl;
 		break;
 	case 1:
 		cout << "컴퓨터는 가위를 냈습니다" << endl;
-		if (User_Value == 1)
+		if (User_Ball == 1)
 			cout << "당신이 이겼습니다." << endl;
-		else if (User_Value == 2)
+		else if (User_Ball == 2)
 			cout << "비겼습니다" << endl;
 		else
 			cout << "당신이 졌습니다" << endl;
 		break;
 	case 2:
 		cout << "컴퓨터는 보를 냈습니다" << endl;
-		if (User_Value == 1)
+		if (User_Ball == 1)
 			cout << "당신이 졌습니다." << endl;
-		else if (User_Value == 2)
+		else if (User_Ball == 2)
 			cout << "당신이 이겼습니다" << endl;
 		else
 			cout << "비겼습니다." << endl;

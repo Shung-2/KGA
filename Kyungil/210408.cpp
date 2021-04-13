@@ -41,7 +41,7 @@ int main()
 	cout << "무야호~" << endl;
 	cout << "그만큼 신나시는다는 거겠지~" << endl << endl;
 
-	// endl을 연속적으로 붙이면 개행이 늘어난다.
+	// endl은 개행을 의미한다.
 	cout << "개행 테스트~" << endl << endl << endl << endl << endl;
 	cout << "개행 끝!" << endl << endl;
 
