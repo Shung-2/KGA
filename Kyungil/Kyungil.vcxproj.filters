@@ -39,5 +39,17 @@
     <ClCompile Include="210413 Homework myself.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="210414.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="210414 homework use internet.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="210414 homework2 copy teacher.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="210414 homework3 myself.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
