@@ -4,7 +4,7 @@ using namespace std;
 
 // 변수 선언
 int User_Val;				// 사용자 값 입력
-int Bingo_Ary[25];			// 25개의 배열 빙고판 선언
+int Ary[25];			// 25개의 배열 빙고판 선언
 int Bingo_Count = 0;		// 빙고가 된 변수 선언
 int dest, sour, temp;		// 셔플용 전용 변수 선언
 const int Marking = '#';	// 사용자 숫자를 빙고판에 마킹할때 사용하는 변수 선언
@@ -13,7 +13,7 @@ int main()
 {
 	// 25개의 배열 빙고판 값 삽입
 	for (int i = 0; i < 25; i++)
-		Bingo_Ary[i] = i + 1;
+		Ary[i] = i + 1;
 
 	// 빙고판 셔플
 	for (int i = 0; i < 25; i++)
@@ -22,9 +22,9 @@ int main()
 		dest = rand() % 25;
 		sour = rand() % 25;
 
-		temp = Bingo_Ary[dest];
-		Bingo_Ary[dest] = Bingo_Ary[sour];
-		Bingo_Ary[sour] = temp;
+		temp = Ary[dest];
+		Ary[dest] = Ary[sour];
+		Ary[sour] = temp;
 	}
 
 	while (true)
@@ -38,10 +38,10 @@ int main()
 		for (int i = 0; i < 25; i++)
 		{
 			if (i % 5 == 0) cout << endl;			
-			if (Bingo_Ary[i] == Marking)
-				cout << (char)Bingo_Ary[i] << '\t';
+			if (Ary[i] == Marking)
+				cout << (char)Ary[i] << '\t';
 			else
-				cout << (int)Bingo_Ary[i] << '\t';
+				cout << (int)Ary[i] << '\t';
 		}
 		cout << endl << endl;
 
@@ -51,9 +51,9 @@ int main()
 
 		for (int i = 0; i < 25; i++)
 		{
-			if (Bingo_Ary[i] == User_Val)
+			if (Ary[i] == User_Val)
 			{
-				Bingo_Ary[i] = Marking;
+				Ary[i] = Marking;
 				break;
 			}
 		}
@@ -64,25 +64,25 @@ int main()
 		for (int i = 0; i < 25; i++)
 		{
 			// 가로
-			if (Bingo_Ary[i * 5] == Marking && Bingo_Ary[i * 5 + 1] == Marking &&
-				Bingo_Ary[i * 5 + 2] == Marking && Bingo_Ary[i * 5 + 3] == Marking &&
-				Bingo_Ary[i * 5 + 4] == Marking
+			if (Ary[i * 5] == Marking && Ary[i * 5 + 1] == Marking &&
+				Ary[i * 5 + 2] == Marking && Ary[i * 5 + 3] == Marking &&
+				Ary[i * 5 + 4] == Marking
 				)
 				Bingo_Count++;
 
 
 			// 세로
-			if (Bingo_Ary[i] == Marking && Bingo_Ary[i + 5 * 1] == Marking &&
-				Bingo_Ary[i + 5 * 2] == Marking && Bingo_Ary[i + 5 * 3] == Marking &&
-				Bingo_Ary[i + 5 * 4] == Marking
+			if (Ary[i] == Marking && Ary[i + 5 * 1] == Marking &&
+				Ary[i + 5 * 2] == Marking && Ary[i + 5 * 3] == Marking &&
+				Ary[i + 5 * 4] == Marking
 				)
 				Bingo_Count++;
 
 			// 오른쪽 아래 대각선 (/)
 			if (i == 0)
 			{
-				if (Bingo_Ary[0] == Marking && Bingo_Ary[6] == Marking &&
-					Bingo_Ary[12] == Marking && Bingo_Ary[18] == Marking && Bingo_Ary[24] == Marking)
+				if (Ary[0] == Marking && Ary[6] == Marking &&
+					Ary[12] == Marking && Ary[18] == Marking && Ary[24] == Marking)
 				{
 					Bingo_Count++;
 				}
@@ -91,8 +91,8 @@ int main()
 			if (i == 0)
 			{
 				// 왼쪽 아래 대각선 (\) 
-				if (Bingo_Ary[4] == Marking && Bingo_Ary[8] == Marking &&
-					Bingo_Ary[12] == Marking && Bingo_Ary[16] == Marking && Bingo_Ary[20] == Marking)
+				if (Ary[4] == Marking && Ary[8] == Marking &&
+					Ary[12] == Marking && Ary[16] == Marking && Ary[20] == Marking)
 				{
 					Bingo_Count++;
 				}
@@ -109,10 +109,10 @@ int main()
 	for (int i = 0; i < 25; i++)
 	{
 		if (i % 5 == 0) cout << endl;
-		if (Bingo_Ary[i] == Marking)
-			cout << (char)Bingo_Ary[i] << '\t';
+		if (Ary[i] == Marking)
+			cout << (char)Ary[i] << '\t';
 		else
-			cout << (int)Bingo_Ary[i] << '\t';
+			cout << (int)Ary[i] << '\t';
 	}
 	cout << "승리!" <<endl << endl;
 }
