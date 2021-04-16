@@ -168,6 +168,15 @@
     <ClCompile Include="210415.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="210416.cpp" />
+    <ClCompile Include="210416 2.CardGame.cpp" />
+    <ClCompile Include="210416 1.mainGame.cpp" />
+    <ClCompile Include="210416 3.BowlingGame.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="210416 3.BowlingGame.h" />
+    <ClInclude Include="210416 2.CardGame.h" />
+    <ClInclude Include="210416 1.mainGame.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

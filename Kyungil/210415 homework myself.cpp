@@ -17,10 +17,11 @@
 
 using namespace std;
 
-int Array[25];
-int User_Move;
-int dest, sour, temp;
-int Zero = 24;
+// 변수선언
+int Array[25];			// 0 ~ 25개의 값을 출력하기 위한 배열 선언
+int User_Move;			// 사용자의 움직임 변수 선언
+int dest, sour, temp;	// Shuffle용 변수 선언 
+int Zero = 24;			// 배열의 마지막 인덱스를 위한 변수 선언
 
 int main()
 {
@@ -58,11 +59,14 @@ int main()
 			cout << Array[i] << "\t";
 		}
 		cout << endl << endl;
+		// 사용자 입력 대기
 		cout << "4 : 왼쪽, 6 : 오른쪽, 8 : 위쪽, 2 : 아래쪽" << endl << endl;
 		cout << "어느 방향으로 움직이시겠습니까? ";
 
+		// 엔터를 치지 않고서도 동작할 수 있게
 		User_Move = _getch();
 
+		// 사용자의 입력을 받아 움직이는 부분
 		switch (User_Move)
 		{
 		case UP:
