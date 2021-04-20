@@ -180,7 +180,9 @@
     <ClCompile Include="210416 3.BowlingGame.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="210419.cpp" />
+    <ClCompile Include="210419.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="210419 1. mainGame.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -241,6 +243,11 @@
     <ClCompile Include="210419 11. Middle_Devil.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="210420 1. Player.cpp" />
+    <ClCompile Include="210420 2. Enemy.cpp" />
+    <ClCompile Include="210420 3. mainGame5.cpp" />
+    <ClCompile Include="210420 4. VectorTest.cpp" />
+    <ClCompile Include="210420.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="210416 3.BowlingGame.h">
@@ -312,6 +319,11 @@
     <ClInclude Include="210419 11. Middle_Devil.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
+    <ClInclude Include="210420 1. Player.h" />
+    <ClInclude Include="210420 2. Enemy.h" />
+    <ClInclude Include="210420 3. mainGame5.h" />
+    <ClInclude Include="210420 4. VectorTest.h" />
+    <ClInclude Include="210420 5. ArraySample.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -31,9 +31,8 @@ int main()
 
 	// 멤버 이니셜라이즈
 	// 예) 210419 7 mainGame4 참조!
-	mainGame4 mg(100, 50);
-	mainGame4 mg1(80, 40);
+	// mainGame4 mg(100, 50);
+	// mainGame4 mg1(80, 40);
 
 	// 숙제 - 종족 5개가 있고 종족의 직업은 3가지 이상
-
 }

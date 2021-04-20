@@ -147,6 +147,21 @@
     <ClCompile Include="210419 11. Devil.cpp">
       <Filter>소스 파일\21/04\21/04/19</Filter>
     </ClCompile>
+    <ClCompile Include="210420 1. Player.cpp">
+      <Filter>소스 파일\21/04</Filter>
+    </ClCompile>
+    <ClCompile Include="210420 2. Enemy.cpp">
+      <Filter>소스 파일\21/04</Filter>
+    </ClCompile>
+    <ClCompile Include="210420 3. mainGame5.cpp">
+      <Filter>소스 파일\21/04</Filter>
+    </ClCompile>
+    <ClCompile Include="210420 4. VectorTest.cpp">
+      <Filter>소스 파일\21/04</Filter>
+    </ClCompile>
+    <ClCompile Include="210420.cpp">
+      <Filter>소스 파일\21/04</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="210416 3.BowlingGame.h">
@@ -217,6 +232,21 @@
     </ClInclude>
     <ClInclude Include="210419 11. Middle_Devil.h">
       <Filter>헤더 파일\21/04\21/04/19</Filter>
+    </ClInclude>
+    <ClInclude Include="210420 1. Player.h">
+      <Filter>헤더 파일\21/04</Filter>
+    </ClInclude>
+    <ClInclude Include="210420 2. Enemy.h">
+      <Filter>헤더 파일\21/04</Filter>
+    </ClInclude>
+    <ClInclude Include="210420 3. mainGame5.h">
+      <Filter>헤더 파일\21/04</Filter>
+    </ClInclude>
+    <ClInclude Include="210420 4. VectorTest.h">
+      <Filter>헤더 파일\21/04</Filter>
+    </ClInclude>
+    <ClInclude Include="210420 5. ArraySample.h">
+      <Filter>헤더 파일\21/04</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
