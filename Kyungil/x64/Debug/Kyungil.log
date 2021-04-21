@@ -1,2 +1,2 @@
-﻿  210420.cpp
-  Kyungil.vcxproj -> C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\x64\Debug\Kyungil.exe
+﻿  210421.cpp
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210421.cpp(6,1): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.

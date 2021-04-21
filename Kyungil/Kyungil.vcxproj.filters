@@ -162,6 +162,24 @@
     <ClCompile Include="210420.cpp">
       <Filter>소스 파일\21/04</Filter>
     </ClCompile>
+    <ClCompile Include="210421.cpp">
+      <Filter>소스 파일\21/04</Filter>
+    </ClCompile>
+    <ClCompile Include="210421 4. Inventory.cpp">
+      <Filter>소스 파일\21/04</Filter>
+    </ClCompile>
+    <ClCompile Include="210421 1. ListTest.cpp">
+      <Filter>소스 파일\21/04</Filter>
+    </ClCompile>
+    <ClCompile Include="210421 2. MainGame.cpp">
+      <Filter>소스 파일\21/04</Filter>
+    </ClCompile>
+    <ClCompile Include="210421 3. Shop.cpp">
+      <Filter>소스 파일\21/04</Filter>
+    </ClCompile>
+    <ClCompile Include="memo">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="210416 3.BowlingGame.h">
@@ -246,6 +264,18 @@
       <Filter>헤더 파일\21/04</Filter>
     </ClInclude>
     <ClInclude Include="210420 5. ArraySample.h">
+      <Filter>헤더 파일\21/04</Filter>
+    </ClInclude>
+    <ClInclude Include="210421 4. Inventory.h">
+      <Filter>헤더 파일\21/04</Filter>
+    </ClInclude>
+    <ClInclude Include="210421 1. ListTest.h">
+      <Filter>헤더 파일\21/04</Filter>
+    </ClInclude>
+    <ClInclude Include="210421 2. MainGame.h">
+      <Filter>헤더 파일\21/04</Filter>
+    </ClInclude>
+    <ClInclude Include="210421 3. Shop.h">
       <Filter>헤더 파일\21/04</Filter>
     </ClInclude>
   </ItemGroup>

@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="memo" />
     <ClCompile Include="210408.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -243,11 +244,26 @@
     <ClCompile Include="210419 11. Middle_Devil.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="210420 1. Player.cpp" />
-    <ClCompile Include="210420 2. Enemy.cpp" />
-    <ClCompile Include="210420 3. mainGame5.cpp" />
-    <ClCompile Include="210420 4. VectorTest.cpp" />
-    <ClCompile Include="210420.cpp" />
+    <ClCompile Include="210420 1. Player.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="210420 2. Enemy.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="210420 3. mainGame5.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="210420 4. VectorTest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="210420.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="210421.cpp" />
+    <ClCompile Include="210421 4. Inventory.cpp" />
+    <ClCompile Include="210421 1. ListTest.cpp" />
+    <ClCompile Include="210421 2. MainGame.cpp" />
+    <ClCompile Include="210421 3. Shop.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="210416 3.BowlingGame.h">
@@ -319,11 +335,25 @@
     <ClInclude Include="210419 11. Middle_Devil.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="210420 1. Player.h" />
-    <ClInclude Include="210420 2. Enemy.h" />
-    <ClInclude Include="210420 3. mainGame5.h" />
-    <ClInclude Include="210420 4. VectorTest.h" />
-    <ClInclude Include="210420 5. ArraySample.h" />
+    <ClInclude Include="210420 1. Player.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="210420 2. Enemy.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="210420 3. mainGame5.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="210420 4. VectorTest.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="210420 5. ArraySample.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="210421 4. Inventory.h" />
+    <ClInclude Include="210421 1. ListTest.h" />
+    <ClInclude Include="210421 2. MainGame.h" />
+    <ClInclude Include="210421 3. Shop.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
