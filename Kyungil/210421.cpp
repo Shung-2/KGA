@@ -5,15 +5,10 @@
 int main()
 {
 	// 리스트 구현
-	// ListTest lt;
+	ListTest lt;
 
 	// 상점, 인벤토리 구현
-	// MainGame mg;
-
-	int a = 1, sum = 0;
-	while (a++ < 10)
-		sum += a * 3 >= sum ? a : 1;
-	printf("%d", sum);
+	MainGame mg;
 }
 
 // 심화학습

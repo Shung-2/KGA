@@ -108,5 +108,4 @@ void Shop::itemOutput(int itemNum)
 		cout << "АЁ Ан : " << _viItem->description << endl;
 		cout << "=============================================" << endl << endl;
 	}	
-
 }

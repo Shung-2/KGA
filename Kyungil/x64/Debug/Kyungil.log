@@ -1,2 +1,14 @@
-﻿  210421.cpp
-C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210421.cpp(6,1): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+﻿  210422 API.cpp
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210422 API.cpp(70,16): warning C4244: 'return': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210422 API.cpp(98,59): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210422 API.cpp(99,87): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210422 API.cpp(100,80): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210422 API.cpp(110,42): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210422 API.cpp(137,21): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210422 API.cpp(137,15): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210422 API.cpp(139,22): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210422 API.cpp(139,15): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210422 API.cpp(144,22): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210422 API.cpp(145,20): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210422 API.cpp(163,15): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Kyungil.vcxproj -> C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\x64\Debug\Kyungil.exe

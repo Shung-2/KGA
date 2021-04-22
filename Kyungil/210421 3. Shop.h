@@ -41,4 +41,3 @@ public:
 	//vector<tagItemInfo> setVShopItem() { _vItem = _vItem; }
 	//vector<tagItemInfo>::iterator getVIShopItem() { _viItem = _viItem; }
 };
-
