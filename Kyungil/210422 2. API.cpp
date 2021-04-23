@@ -94,74 +94,102 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)
 
 		hdc = BeginPaint(hWnd, &ps);
 
-		// 화면에 글자를 출력해보자
-		TextOut(hdc, 50, 100, "무야호~", strlen("무야호~"));
-		TextOut(hdc, 50, 150, "점심은 뭐먹을까?~", strlen("점심은 뭐먹을까?~"));
-		TextOut(hdc, 250, 100, "2D 준비됐어 영?", strlen("2D 준비됐어 영?"));
+		//// 화면에 글자를 출력해보자
+		//TextOut(hdc, 50, 100, "무야호~", strlen("무야호~"));
+		//TextOut(hdc, 50, 150, "점심은 뭐먹을까?~", strlen("점심은 뭐먹을까?~"));
+		//TextOut(hdc, 250, 100, "2D 준비됐어 영?", strlen("2D 준비됐어 영?"));
 
-		// RGB 색상 기본 참고
-		// 0, 0, 0 검정
-		// 255, 255, 255 하양
-		SetTextColor(hdc, RGB(255, 0, 0));
-		// 이 밑으로는 색칠되서 출력된다 :)
+		//// RGB 색상 기본 참고
+		//// 0, 0, 0 검정
+		//// 255, 255, 255 하양
+		//SetTextColor(hdc, RGB(255, 0, 0));
+		//// 이 밑으로는 색칠되서 출력된다 :)
 
-		// 매번 이렇게 출력할래? 놉, 변수 출력!
-		const char* str = "실기 합격하고 싶다.";
-		TextOut(hdc, 250, 150, str, strlen(str));
+		//// 매번 이렇게 출력할래? 놉, 변수 출력!
+		//const char* str = "실기 합격하고 싶다.";
+		//TextOut(hdc, 250, 150, str, strlen(str));
 
-		// 선을 그어봅시다
-		MoveToEx(hdc, 50, 50, NULL); // 50, 50에 시작점을 둔다
-		LineTo(hdc, 100, 100);		 // 100, 100 선을 긋는다.
-		LineTo(hdc, 150, 100);
-		LineTo(hdc, 150, 300);
-		 
-		MoveToEx(hdc, 450, 50, NULL);
-		LineTo(hdc, 300, 250);
+		//// 선을 그어봅시다
+		//MoveToEx(hdc, 50, 50, NULL); // 50, 50에 시작점을 둔다
+		//LineTo(hdc, 100, 100);		 // 100, 100 선을 긋는다.
+		//LineTo(hdc, 150, 100);
+		//LineTo(hdc, 150, 300);
+		// 
+		//MoveToEx(hdc, 450, 50, NULL);
+		//LineTo(hdc, 300, 250);
 
-		// 사각형 그리기 함수 == Rectangle();
+		//// 사각형 그리기 함수 == Rectangle();
+		//Rectangle(hdc, 10, 10, 100, 100);
+
+		//// 동그라미 그리기 함수 == Ellipse()
+		//Ellipse(hdc, 10, 10, 100, 100);
+
+		//// 과제
+		//// 1. 선과 도형으로 자기 이름을 그려보시오
+		//// 2. 도막사라무
+		//
+		//// 1. 이시영
+		//Ellipse(hdc, 30, 30, 60, 60);		// ㅇ
+		//MoveToEx(hdc, 75, 15, NULL);		// ㅣ
+		//LineTo(hdc, 75, 75);				// ㅣ
+
+		//MoveToEx(hdc, 100, 30, NULL);		// ㅅ
+		//LineTo(hdc, 82.5, 62.5);			// ㅅ
+		//MoveToEx(hdc, 100, 30, NULL);		// ㅅ
+		//LineTo(hdc, 117.5, 62.5);			// ㅅ
+		//MoveToEx(hdc, 135, 15, NULL);		// ㅣ
+		//LineTo(hdc, 135, 75);				// ㅣ
+
+		//Ellipse(hdc, 160, 30, 190, 60);		// ㅇ
+		//MoveToEx(hdc, 200, 37.5, NULL);		// ㅕ
+		//LineTo(hdc, 215, 37.5);				// ㅕ
+		//MoveToEx(hdc, 200, 50, NULL);		// ㅕ
+		//LineTo(hdc, 215, 50);				// ㅕ
+		//MoveToEx(hdc, 215, 25, NULL);		// ㅣ
+		//LineTo(hdc, 215, 70);				// ㅣ
+		//Ellipse(hdc, 180, 70, 210, 100);	// ㅇ
+
+		//// 2. 도막사라무
+		//Ellipse(hdc, 250, 150, 750, 550);	// 바깥쪽 원
+		//Ellipse(hdc, 275, 175, 725, 525);	// 안쪽 원
+
+		//MoveToEx(hdc, 500, 175, NULL);		// 정삼각형
+		//LineTo(hdc, 285, 400);
+		//LineTo(hdc, 715, 400);
+		//LineTo(hdc, 500, 175);
+
+		//MoveToEx(hdc, 500, 525, NULL);		// 뒤집은 정삼각형
+		//LineTo(hdc, 295, 275);
+		//LineTo(hdc, 702.5, 275);
+		//LineTo(hdc, 500, 525);
+		
+		// 이하 21.04.23 수업
+		// 펜(PEN)		     펜 스타일 / 굵기 / 및 색상
+		//HPEN pen = CreatePen(PS_DOT, 5, RGB(0, 0, 255));
+		//HPEN oldPen = (HPEN)SelectObject(hdc, pen);
+
+		//MoveToEx(hdc, 100, 100, NULL);
+		//LineTo(hdc, 200, 200);
+
+		//SelectObject(hdc, oldPen);
+		//DeleteObject(pen);
+
+		// 도형 색칠
+		HBRUSH brush = CreateSolidBrush(RGB(50, 50, 100));
+		HBRUSH oldBrush = (HBRUSH)SelectObject(hdc, brush);
+
+		Ellipse(hdc, 200, 200, 400, 400);
 		Rectangle(hdc, 10, 10, 100, 100);
 
-		// 동그라미 그리기 함수 == Ellipse()
-		Ellipse(hdc, 10, 10, 100, 100);
+		SelectObject(hdc, oldBrush);
+		DeleteObject(brush);
 
-		// 과제
-		// 1. 선과 도형으로 자기 이름을 그려보시오
-		// 2. 도막사라무
-		
-		// 1. 이시영
-		Ellipse(hdc, 30, 30, 60, 60);		// ㅇ
-		MoveToEx(hdc, 75, 15, NULL);		// ㅣ
-		LineTo(hdc, 75, 75);				// ㅣ
-
-		MoveToEx(hdc, 100, 30, NULL);		// ㅅ
-		LineTo(hdc, 82.5, 62.5);			// ㅅ
-		MoveToEx(hdc, 100, 30, NULL);		// ㅅ
-		LineTo(hdc, 117.5, 62.5);			// ㅅ
-		MoveToEx(hdc, 135, 15, NULL);		// ㅣ
-		LineTo(hdc, 135, 75);				// ㅣ
-
-		Ellipse(hdc, 160, 30, 190, 60);		// ㅇ
-		MoveToEx(hdc, 200, 37.5, NULL);		// ㅕ
-		LineTo(hdc, 215, 37.5);				// ㅕ
-		MoveToEx(hdc, 200, 50, NULL);		// ㅕ
-		LineTo(hdc, 215, 50);				// ㅕ
-		MoveToEx(hdc, 215, 25, NULL);		// ㅣ
-		LineTo(hdc, 215, 70);				// ㅣ
-		Ellipse(hdc, 180, 70, 210, 100);	// ㅇ
-
-		// 2. 도막사라무
-		Ellipse(hdc, 250, 150, 750, 550);	// 바깥쪽 원
-		Ellipse(hdc, 275, 175, 725, 525);	// 안쪽 원
-
-		MoveToEx(hdc, 500, 175, NULL);		// 정삼각형
-		LineTo(hdc, 285, 400);
-		LineTo(hdc, 715, 400);
-		LineTo(hdc, 500, 175);
-
-		MoveToEx(hdc, 500, 525, NULL);		// 뒤집은 정삼각형
-		LineTo(hdc, 295, 275);
-		LineTo(hdc, 702.5, 275);
-		LineTo(hdc, 500, 525);
+		// 픽셀 1개를 찍는다는 전설의 SetPixel();
+		SetPixel(hdc, 50, 50, RGB(255, 0, 0));
+		for (int i = 0; i < 10; i++)
+		{
+			SetPixel(hdc, 50 + i, 50, RGB(255, 0, 0));
+		}
 
 		EndPaint(hWnd, &ps);
 	}

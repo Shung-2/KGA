@@ -17,7 +17,7 @@ private:
 	// 10만개 이상의 데이터는 맵이 유리하다.
 	// 100만개 이상의 데이터는 해쉬 맵이 유리하다.
 	// hash_map -> unordered_map 으로 사용을 권장하고 있다.
-	// map = 레드블랙 트리, hash_map은 ~로 되어 있다.
+	// map = 레드블랙 트리, hash_map은 (?)로 되어 있다.
 
 public:
 	MapTest();
