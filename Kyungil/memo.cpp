@@ -28,3 +28,10 @@
 
 // 210423
 // inline함수는 무엇인가요? 찾아보세요
+// 자세한 설명은 아래 링크를 참고합시다
+// https://boycoding.tistory.com/220
+// https://wonjayk.tistory.com/204
+
+// 210426
+// InvalidateRect(핸들, 무효화영역(?), 지울 여부)
+// InvalidateRect(_, NULL, true)

@@ -19,7 +19,7 @@ using namespace std;
 // ## 매크로 처리 ## 21.04.23 ##
 //==================================
 
-#define WINNAME (LPTSTR)(TEXT("28기 API"))
+#define WINNAME (LPTSTR)(TEXT("경일 28기 API 이시영"))
 #define WINSTARTX 50	// 윈도우 창 시작좌표 (LEFT)
 #define WINSTARTY 50	// 윈도우 창 시작좌표 (TOP)
 #define WINSIZEX 1024	// 윈도우 가로크기

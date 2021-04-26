@@ -8,7 +8,7 @@
 #define IDD_WINDOWAPI_DIALOG	102
 #define IDD_ABOUTBOX			103
 #define IDM_ABOUT				104
-#define IDM_EXIT				105
+#define IDM_EXIT				1010
 #define IDI_WINDOWAPI			107
 #define IDI_SMALL				108
 #define IDC_WINDOWAPI			109

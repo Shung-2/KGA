@@ -11,6 +11,19 @@ inline void LineMake(HDC hdc, int x1, int y1, int x2, int y2)
 	LineTo(hdc, x2, y2);
 }
 
+// RECT
+inline RECT RectMake(int x, int y, int width, int height)
+{
+	RECT rc = { x, y, x + width, y + height };
+	return rc;
+}
+
+inline RECT RectMakeCenter(int x, int y, int width, int height)
+{
+	RECT rc = { x - (width /2), y - (height / 2), x + (width / 2), y + (height / 2) };
+	return rc;
+}
+
 // 사각형
 // x, y축을 기준으로 하는 사각형이 생성된다
 inline void RectangleMake(HDC hdc, int x, int y, int width, int height)
