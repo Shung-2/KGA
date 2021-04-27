@@ -41,6 +41,18 @@
     <ClCompile Include="210426 API2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="210427 API.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="210427 API homework1 myself .cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="210427 API homework2 myself.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="210427 API homework2 myself2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="WindowAPI.rc">

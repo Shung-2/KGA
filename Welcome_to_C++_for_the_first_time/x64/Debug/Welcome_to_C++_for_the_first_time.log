@@ -1,3 +1,1 @@
-﻿  Chapter03.cpp
-MSVCRTD.lib(exe_main.obj) : error LNK2019: main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
-C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\x64\Debug\Welcome_to_C++_for_the_first_time.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+﻿

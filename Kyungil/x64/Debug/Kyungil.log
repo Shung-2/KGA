@@ -1,10 +1,1 @@
-﻿  210422 2. API.cpp
-C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210422 2. API.cpp(70,16): warning C4244: 'return': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210422 2. API.cpp(137,21): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210422 2. API.cpp(137,15): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210422 2. API.cpp(139,22): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210422 2. API.cpp(139,15): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210422 2. API.cpp(144,22): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210422 2. API.cpp(145,20): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\Kyungil\210422 2. API.cpp(163,15): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Kyungil.vcxproj -> C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\x64\Debug\Kyungil.exe
+﻿

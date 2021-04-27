@@ -25,6 +25,11 @@ inline RECT RectMakeCenter(int x, int y, int width, int height)
 }
 
 // 사각형
+inline void Rectangle(HDC hdc, RECT& rc)
+{
+	Rectangle(hdc, rc.left, rc.top, rc.right, rc.bottom);
+}
+
 // x, y축을 기준으로 하는 사각형이 생성된다
 inline void RectangleMake(HDC hdc, int x, int y, int width, int height)
 {
