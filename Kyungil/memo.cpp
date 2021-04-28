@@ -35,3 +35,4 @@
 // 210426
 // InvalidateRect(핸들, 무효화영역(?), 지울 여부)
 // InvalidateRect(_, NULL, true)
+// githubtest
