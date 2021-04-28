@@ -247,3 +247,10 @@ void setWindowsSize(int x, int y, int width, int height)
 	//조정된 영역으로 다시 한 번 윈도우 위치 잡아주는 함수
 	SetWindowPos(_hWnd, NULL, x, y, (winRect.right - winRect.left), (winRect.bottom - winRect.top), SWP_NOZORDER | SWP_NOMOVE);
 }
+
+/*
+문제점
+1. 사각형2(rc2)가 상하좌우 벽에 부딪쳤을 때 사각형1(rc)이 움직이지 않는다.
+문제가 되는 코드의 넘버 : 115, 143, 171, 199번 이 부분을 조금 더 생각해보고 수정하여
+사각형2가 벽에 부딪쳐도 사각형1이 움직일수 있게 해보자
+*/

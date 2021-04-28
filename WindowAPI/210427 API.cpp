@@ -59,7 +59,6 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)
 	}
 	break;
 
-	// 그림을 그려주는 것
 	case WM_PAINT:
 	{
 		hdc = BeginPaint(hWnd, &ps);
@@ -91,7 +90,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)
 			//마우스가 렉트안을 클릭했을 떄
 		}
 
-		// 88번 라인과 같은 내용
+		// 88번과 같은 역활을 하는 함수(PtInRect)
 		if (PtInRect(&_rc, _ptMouse))
 		{
 			//마우스가 렉트안을 클릭했을 떄
@@ -106,12 +105,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)
 	}
 	break;
 
-	// 키(아무)가 눌렸을 때
 	case WM_KEYDOWN: 
-		// wParam - 모든 키 입력 및 마우스 클릭
 		switch (wParam)
 		{
-			// ESC가 눌렸을 때
 			case VK_ESCAPE:
 			{
 				PostQuitMessage(0);
@@ -120,7 +116,6 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)
 		}
 		break;
 
-	//윈도우 종료함수
 	case WM_DESTROY: 
 		PostQuitMessage(0);
 		return 0;
@@ -136,9 +131,6 @@ void setWindowsSize(int x, int y, int width, int height)
 	winRect.right = width;
 	winRect.bottom = height;
 
-	//얘가 실제 클라이언트 영역 조정 들어가는 함수
 	AdjustWindowRect(&winRect, WINSTYLE, false);
-
-	//조정된 영역으로 다시 한 번 윈도우 위치 잡아주는 함수
 	SetWindowPos(_hWnd, NULL, x, y, (winRect.right - winRect.left), (winRect.bottom - winRect.top), SWP_NOZORDER | SWP_NOMOVE);
 }

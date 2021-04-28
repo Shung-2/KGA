@@ -12,6 +12,8 @@
 #include <tchar.h>
 #include <iostream>
 #include "commonMacroFunction.h"
+#include "randomFunction.h"
+#include "keyManager.h"
 
 using namespace std;
 
@@ -19,9 +21,19 @@ using namespace std;
 // ## 매크로 처리 ## 21.04.23 ##
 //==================================
 
-#define WINNAME (LPTSTR)(TEXT("경일 28기 API 이시영"))
-#define WINSTARTX 50	// 윈도우 창 시작좌표 (LEFT)
-#define WINSTARTY 50	// 윈도우 창 시작좌표 (TOP)
-#define WINSIZEX 1024	// 윈도우 가로크기
-#define WINSIZEY 768	// 윈도우 세로크기
+#define WINNAME (LPTSTR)(TEXT("경일 28기 이시영 API"))
+#define WINSTARTX 50	//윈도우 창 시작좌표 (left)
+#define WINSTARTY 50	//윈도우 창 시작좌표 (top)
+#define WINSIZEX 600	//윈도우 가로크기
+#define WINSIZEY 800	//윈도우 세로크기
 #define WINSTYLE WS_CAPTION | WS_SYSMENU
+
+#define RND randomFunction::getSingleton()
+#define KEYMANAGER keyManager::getSingleton()
+
+//==================================
+// ## extern ## 21.04.28 ##
+//==================================
+extern HINSTANCE _hInstance;
+extern HWND _hWnd;
+extern POINT _ptMouse;

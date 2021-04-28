@@ -55,6 +55,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpszCmd
 // 전역공간에 선언할꺼면 선언해도 무방하다!
 // RECT _rc;
 
+// 이넘을 통한 박스 생성
 enum BOX
 {
 	BOX_FIRST,
@@ -84,7 +85,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)
 	{
 		hdc = BeginPaint(hWnd, &ps);
 
-		// 사각형 생성
+		// 포문을 통한 사각형 생성
 		for (int i = 0; i < BOX_END; i++)
 		{
 			Rectangle(hdc, _rc[i].left, _rc[i].top, _rc[i].right, _rc[i].bottom);
@@ -116,9 +117,11 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)
 			*/
 
 		case VK_LEFT:
+			// 움직임
 			_rc[CURRENTBOX].left -= 5;
 			_rc[CURRENTBOX].right -= 5;
 
+			// 내부 사각형
 			if (_rcIN.right > _rc[CURRENTBOX].right)
 			{
 				int width = _rcIN.right - _rcIN.left;
@@ -128,9 +131,11 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)
 			break;
 
 		case VK_RIGHT:
+			// 움직임
 			_rc[CURRENTBOX].left += 5;
 			_rc[CURRENTBOX].right += 5;
 
+			// 내부 사각형
 			if (_rcIN.left < _rc[CURRENTBOX].left)
 			{
 				int width = _rcIN.right - _rcIN.left;
@@ -140,9 +145,11 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)
 			break;
 
 		case VK_UP:
+			// 움직임
 			_rc[CURRENTBOX].top -= 5;
 			_rc[CURRENTBOX].bottom -= 5;
 
+			// 내부 사각형
 			if (_rcIN.bottom > _rc[CURRENTBOX].bottom)
 			{
 				int height = _rcIN.bottom - _rcIN.top;
@@ -152,9 +159,11 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)
 			break;
 
 		case VK_DOWN:
+			// 움직임
 			_rc[CURRENTBOX].top += 5;
 			_rc[CURRENTBOX].bottom += 5;
 
+			// 내부 사각형
 			if (_rcIN.top < _rc[CURRENTBOX].top)
 			{
 				int height = _rcIN.bottom - _rcIN.top;
@@ -180,7 +189,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)
 				(_rc[CURRENTBOX].top + _rc[CURRENTBOX].bottom) / 2, 50, 50);
 		}
 
-		/*
+		/* IntersectRect를 사용하지 않고 구현하는 방법
 		if (_rc[BOX_FIRST].right  > _rc[BOX_SECOND].left &&
 			_rc[BOX_FIRST].left   < _rc[BOX_SECOND].right &&
 			_rc[BOX_FIRST].top    < _rc[BOX_SECOND].bottom &&
@@ -228,3 +237,10 @@ void setWindowsSize(int x, int y, int width, int height)
 	//조정된 영역으로 다시 한 번 윈도우 위치 잡아주는 함수
 	SetWindowPos(_hWnd, NULL, x, y, (winRect.right - winRect.left), (winRect.bottom - winRect.top), SWP_NOZORDER | SWP_NOMOVE);
 }
+
+/*
+문제점
+1. 나는 풀지 못했다.
+이로 인해 내가 직접 짠 코드가 아니라 선생님이 짜신 코드를 다시한번 타이핑밖에 해보지 못했다.
+주말에 시간을 내서 해당 코드를 따라쳐보고 이를 분석하여 내것으로 만든다음 보지않고 다시 만드는게 목표!
+*/
