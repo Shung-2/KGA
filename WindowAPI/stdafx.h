@@ -24,12 +24,12 @@ using namespace std;
 #define WINNAME (LPTSTR)(TEXT("경일 28기 이시영 API"))
 #define WINSTARTX 50	//윈도우 창 시작좌표 (left)
 #define WINSTARTY 50	//윈도우 창 시작좌표 (top)
-#define WINSIZEX 600	//윈도우 가로크기
+#define WINSIZEX 1024	//윈도우 가로크기
 #define WINSIZEY 800	//윈도우 세로크기
 #define WINSTYLE WS_CAPTION | WS_SYSMENU
-
 #define RND randomFunction::getSingleton()
 #define KEYMANAGER keyManager::getSingleton()
+#define SAFE_DELETE(p) {if(p) {delete(p); (p) = nullptr;}}
 
 //==================================
 // ## extern ## 21.04.28 ##

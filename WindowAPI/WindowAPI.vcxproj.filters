@@ -13,20 +13,23 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="210428">
+    <Filter Include="210428 ~">
       <UniqueIdentifier>{231f9f0b-e25c-4045-80ba-4e2091e8f122}</UniqueIdentifier>
     </Filter>
-    <Filter Include="210428\2DGameFramework">
+    <Filter Include="210428 ~\2DGameFramework">
       <UniqueIdentifier>{57dcaaec-e886-4f0b-84e1-d3fe9db2a8e2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="210428\2DGameFramework\Manager">
+    <Filter Include="210428 ~\2DGameFramework\Manager">
       <UniqueIdentifier>{92754c2c-139f-4140-933e-2a19f2a2122d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="210428\2DGameFramework\SingletonBase">
+    <Filter Include="210428 ~\2DGameFramework\SingletonBase">
       <UniqueIdentifier>{93fbbb59-52ba-4aa0-a824-27e199effec7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="210428\playGround">
+    <Filter Include="210428 ~\playGround">
       <UniqueIdentifier>{afd6986f-b737-49cf-9446-48a22f3b3add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="210428 ~\2DGameFramework\210429 image">
+      <UniqueIdentifier>{5b810637-469b-41d7-afea-60dc0c01d678}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -46,16 +49,19 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="gameNode.h">
-      <Filter>210428\2DGameFramework</Filter>
+      <Filter>210428 ~\2DGameFramework</Filter>
     </ClInclude>
     <ClInclude Include="keyManager.h">
-      <Filter>210428\2DGameFramework\Manager</Filter>
+      <Filter>210428 ~\2DGameFramework\Manager</Filter>
     </ClInclude>
     <ClInclude Include="playGround.h">
-      <Filter>210428\playGround</Filter>
+      <Filter>210428 ~\playGround</Filter>
     </ClInclude>
     <ClInclude Include="singletonBase.h">
-      <Filter>210428\2DGameFramework\SingletonBase</Filter>
+      <Filter>210428 ~\2DGameFramework\SingletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>210428 ~\2DGameFramework\210429 image</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -83,20 +89,20 @@
     <ClCompile Include="210427 API homework2 myself2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="210428 API Class.cpp">
-      <Filter>210428\2DGameFramework</Filter>
-    </ClCompile>
-    <ClCompile Include="2gameNode.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="gameNode.cpp">
-      <Filter>210428\2DGameFramework</Filter>
+      <Filter>210428 ~\2DGameFramework</Filter>
     </ClCompile>
     <ClCompile Include="keyManager.cpp">
-      <Filter>210428\2DGameFramework\Manager</Filter>
+      <Filter>210428 ~\2DGameFramework\Manager</Filter>
     </ClCompile>
     <ClCompile Include="playGround.cpp">
-      <Filter>210428\playGround</Filter>
+      <Filter>210428 ~\playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="210428 API Class.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>210428 ~\2DGameFramework\210429 image</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -12,7 +12,6 @@ protected:
 public:
 	static T* getSingleton();
 	void releaseSingleton();
-
 };
 
 template <typename T>

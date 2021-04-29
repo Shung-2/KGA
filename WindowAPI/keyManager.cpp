@@ -1,14 +1,14 @@
 #include "stdafx.h"
 #include "keyManager.h"
 
-
 keyManager::keyManager()
 {
-}
 
+}
 
 keyManager::~keyManager()
 {
+
 }
 
 HRESULT keyManager::init()
@@ -18,12 +18,12 @@ HRESULT keyManager::init()
 	{
 		this->getKeyUp().set(i, false);
 	}
-
 	return S_OK;
 }
 
 void keyManager::release()
 {
+
 }
 
 bool keyManager::isOnceKeyDown(int key)

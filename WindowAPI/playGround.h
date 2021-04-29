@@ -15,7 +15,7 @@ struct tagSnow
 };
 */
 
-#define PIPEMAX 1
+// #define PIPEMAX 1
 
 class playGround : public gameNode
 {
@@ -35,6 +35,7 @@ private:
 	*/
 
 	// 210428 API 수업 3 (플래피버드)
+	/* 
 	RECT _player;
 	RECT _pipe1;
 	RECT _pipe2;
@@ -48,7 +49,12 @@ private:
 	int _score;					// 스코어
 	float _speed = 3;
 	bool _isStartSate;
-	
+	*/
+
+	// 210429 API 수업 1
+	RECT _rc;
+	int _count;
+
 public:
 	playGround();
 	~playGround();

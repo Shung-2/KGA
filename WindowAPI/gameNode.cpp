@@ -1,14 +1,20 @@
 #include "stdafx.h"
 #include "gameNode.h"
 
+void gameNode::setBackBuffer()
+{
+	_backBuffer = new image;
+	_backBuffer->init(WINSIZEX, WINSIZEY);
+}
 
 gameNode::gameNode()
 {
-}
 
+}
 
 gameNode::~gameNode()
 {
+
 }
 
 HRESULT gameNode::init()
@@ -33,13 +39,13 @@ void gameNode::update()
 
 void gameNode::render(HDC hdc)
 {
+
 }
 
 LRESULT gameNode::MainProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)
 {
 	PAINTSTRUCT ps;
 	HDC         hdc; //얘 찐 중요합니...
-
 
 	switch (iMessage)
 	{
@@ -57,14 +63,15 @@ LRESULT gameNode::MainProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lPara
 		break;
 	}
 	break;
+
 	//마우스 움직이면 여기서 메세지 발생
 	case WM_MOUSEMOVE:
 		_ptMouse.x = static_cast<float>(LOWORD(lParam));
 		_ptMouse.y = static_cast<float>(HIWORD(lParam));
 
 		break;
-		//마우스 왼쪽 클릭(눌려지고 있을때 여기)
-
+		
+	//마우스 왼쪽 클릭(눌려지고 있을때 여기)
 	case WM_KEYDOWN:
 
 		switch (wParam)
@@ -82,8 +89,5 @@ LRESULT gameNode::MainProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lPara
 		PostQuitMessage(0);
 		return 0;
 	}
-
-
 	return (DefWindowProc(hWnd, iMessage, wParam, lParam));
-
 }

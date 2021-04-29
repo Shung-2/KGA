@@ -4,10 +4,12 @@
 
 playGround::playGround()
 {
+
 }
 
 playGround::~playGround()
 {
+
 }
 
 //초기화는 여기다 하세요 제발
@@ -34,7 +36,7 @@ HRESULT playGround::init()
 	*/
 
 	// 210428 API 수업 3 (플래피버드)
-	// 주인공(박스) 생성
+	/*   주인공(박스) 생성
 	_x = WINSIZEX / 2 - 200;
 	_y = WINSIZEY / 2;
 	_player = RectMakeCenter(_x, _y, 100, 100);
@@ -57,8 +59,15 @@ HRESULT playGround::init()
 
 	_jumpPower = _gravity = _score = 0;
 	_isJump = false;
+	*/
+
+	// 210429 API 수업 1
+	_rc = RectMakeCenter(WINSIZEX / 2, WINSIZEY / 2, 100, 100);
+
+	_count = 0;
 
 	return S_OK;
+
 }
 
 //메모리 해제는 여기다 하세요 제발
@@ -141,6 +150,7 @@ void playGround::update()
 	*/
 
 	// 210428 API 수업 3 (플래피버드)
+	/*
 	if (KEYMANAGER->isOnceKeyDown(VK_SPACE))
 	{
 		_gravity = 0.1f;
@@ -170,10 +180,7 @@ void playGround::update()
 			{
 				_pipe3[i] = RectMake(500, 0, 100, RND->getFromIntTo(0, 400));
 			}
-
 		}
-
-		
 
 		for (int i = 0; i < PIPEMAX; i++)
 		{
@@ -210,8 +217,21 @@ void playGround::update()
 				this->init();
 			}
 		}
+		
 	}
 	_player = RectMakeCenter(_x, _y, 100, 100);
+	*/
+
+	// 210429 API 수업 1 (인터벌)
+	_count++;
+	
+	if (_count % 50 == 0)
+	{
+		_rc.left += 10;
+		_rc.right += 10;
+	
+		_count = 0;
+	}
 }
 
 //여기에다 그려라 좀! 쫌!
@@ -237,6 +257,7 @@ void playGround::render(HDC hdc)
 	*/
 
 	// 210428 API 수업 3 (플래피버드)
+	/*
 	if (_isStartSate == true)
 	{
 		char str2[128];
@@ -256,4 +277,19 @@ void playGround::render(HDC hdc)
 		Rectangle(hdc, _pipe2[i]);
 		Rectangle(hdc, _pipe3[i]);
 	}
+	*/
+
+	// 210429 API 수업 1
+	HDC backDC = this->getBackBuffer()->getMemDC();
+	PatBlt(backDC, 0, 0, WINSIZEX, WINSIZEY, WHITENESS);
+	// 위에 건들지마라
+	//================제발 이 사이에 좀 그립시다==========================
+
+
+	Rectangle(backDC, _rc);
+
+
+	//==================================================
+	//여기도 건들지마라
+	this->getBackBuffer()->render(hdc, 0, 0);
 }
