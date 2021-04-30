@@ -1,2 +1,0 @@
-C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210429_1\x64\Debug\windowAPI.exe
-C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210429_1\x64\Debug\windowAPI.pdb

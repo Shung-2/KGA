@@ -11,9 +11,18 @@ struct tagBox
 class playGround : public gameNode
 {
 private:
-	tagBox _box[5];
+	// ÀÌ
+	tagBox _box1[20];
 	
+	// ¾ó±¼
+	RECT Alligator_Mouse;
+	RECT Alligator_Face1;
+	RECT Alligator_Face2;
+	RECT Alligator_Face3;
 	
+	// ½Ã°£
+	int time;
+
 public:
 	playGround();
 	~playGround();
