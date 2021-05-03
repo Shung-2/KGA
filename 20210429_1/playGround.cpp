@@ -39,7 +39,7 @@ HRESULT playGround::init()
 	// 이빨 중 조커 선언
 	_box1[RND->getInt(20)].isJoker = true;
 
-	// 얼굴 선언
+	// 얼굴 선언 (위, 왼쪽, 아래 순)
 	Alligator_Mouse = RectMake(200, 375, 650, 200);
 	Alligator_Face1 = RectMake(150, 325, 700, 50);
 	Alligator_Face2 = RectMake(150, 325, 50, 250);
@@ -73,28 +73,27 @@ void playGround::update()
 
 	for (int i = 0; i < 20; i++)
 	{
+		// 해당 카드가 조커이면
 		if (_box1[i].isCheck && _box1[i].isJoker)
 		{
 			for (int i = 0; i < 10; i++)
 			{
+				// 윗니가 내려오고
 				if (_box1[i].rc.bottom <= 450)
 				{
 					_box1[i].rc.top += 5;
 					_box1[i].rc.bottom += 5;
 				}
 
+				// 윗입술이 내려온다
 				if (Alligator_Face1.bottom <= 400)
 				{
 					Alligator_Face1.top += 5;
 					Alligator_Face1.bottom += 5;
 				}
 			}
-			
-			
-
 
 			time++;
-
 			if (time > 100) this->init();
 		}
 	}
@@ -132,6 +131,7 @@ void playGround::render(HDC hdc)
 	SelectObject(backDC, oldBrush3);
 	DeleteObject(brush3);
 
+	// 이
 	for (int i = 0; i < 20; i++)
 	{
 		if (_box1[i].isCheck && !_box1[i].isJoker)
