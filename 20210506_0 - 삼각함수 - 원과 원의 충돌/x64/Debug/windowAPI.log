@@ -1,0 +1,6 @@
+﻿  playGround.cpp
+C:\Users\zlzlf\OneDrive\바탕 화면\20210504_0\playGround.cpp(37,69): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210504_0\playGround.cpp(38,69): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210504_0\playGround.cpp(43,11): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210504_0\playGround.cpp(44,11): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  windowAPI.vcxproj -> C:\Users\zlzlf\OneDrive\바탕 화면\20210504_0\x64\Debug\windowAPI.exe
