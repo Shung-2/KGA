@@ -1,0 +1,17 @@
+﻿  stdafx.cpp
+  gameNode.cpp
+C:\Users\zlzlf\OneDrive\바탕 화면\경일\원본 수업자료\210507 23. 입사각반사각\20210507_2\gameNode.cpp(70,36): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\경일\원본 수업자료\210507 23. 입사각반사각\20210507_2\gameNode.cpp(71,36): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  image.cpp
+  keyManager.cpp
+  playGround.cpp
+C:\Users\zlzlf\OneDrive\바탕 화면\경일\원본 수업자료\210507 23. 입사각반사각\20210507_2\playGround.cpp(55,61): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\경일\원본 수업자료\210507 23. 입사각반사각\20210507_2\playGround.cpp(56,62): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\경일\원본 수업자료\210507 23. 입사각반사각\20210507_2\playGround.cpp(75,98): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\경일\원본 수업자료\210507 23. 입사각반사각\20210507_2\playGround.cpp(75,75): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\경일\원본 수업자료\210507 23. 입사각반사각\20210507_2\playGround.cpp(75,53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\경일\원본 수업자료\210507 23. 입사각반사각\20210507_2\playGround.cpp(75,39): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  winMain.cpp
+C:\Users\zlzlf\OneDrive\바탕 화면\경일\원본 수업자료\210507 23. 입사각반사각\20210507_2\winMain.cpp(75,16): warning C4244: 'return': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  windowAPI.vcxproj -> C:\Users\zlzlf\OneDrive\바탕 화면\경일\원본 수업자료\210507 23. 입사각반사각\20210507_2\x64\Debug\windowAPI.exe
