@@ -1,0 +1,6 @@
+C:\Users\zlzlf\OneDrive\바탕 화면\경일\원본 수업자료\210512 26. 이미지\20210512_1\x64\Debug\windowAPI.exe
+C:\Users\zlzlf\OneDrive\바탕 화면\경일\원본 수업자료\210512 26. 이미지\20210512_1\x64\Debug\windowAPI.pdb
+C:\Users\zlzlf\OneDrive\바탕 화면\20210512_1 플래피버드\x64\Debug\windowAPI.exe
+C:\Users\zlzlf\OneDrive\바탕 화면\20210512_1 플래피버드\x64\Debug\windowAPI.pdb
+C:\Users\zlzlf\OneDrive\바탕 화면\경일\내가 만든 자료\20210512_1 - 플래피버드 이미지화 게임 제작(완성210512)\x64\Debug\windowAPI.exe
+C:\Users\zlzlf\OneDrive\바탕 화면\경일\내가 만든 자료\20210512_1 - 플래피버드 이미지화 게임 제작(완성210512)\x64\Debug\windowAPI.pdb
