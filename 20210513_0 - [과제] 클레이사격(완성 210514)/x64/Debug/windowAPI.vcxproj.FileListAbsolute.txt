@@ -1,0 +1,2 @@
+C:\Users\zlzlf\OneDrive\바탕 화면\20210513_0 클레이사격\x64\Debug\windowAPI.exe
+C:\Users\zlzlf\OneDrive\바탕 화면\20210513_0 클레이사격\x64\Debug\windowAPI.pdb

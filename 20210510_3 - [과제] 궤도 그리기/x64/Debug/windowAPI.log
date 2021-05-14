@@ -1,1 +1,14 @@
-﻿  windowAPI.vcxproj -> C:\Users\zlzlf\OneDrive\바탕 화면\경일\내가 만든 자료\20210510_2 - 궤도 그리기\x64\Debug\windowAPI.exe
+﻿  playGround.cpp
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210510_3 - [과제] 궤도 그리기\playGround.h(4,1): warning C4005: 'PI': 매크로 재정의
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210510_3 - [과제] 궤도 그리기\utils.h(2): message : 'PI'의 이전 정의를 참조하십시오.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210510_3 - [과제] 궤도 그리기\playGround.cpp(57,61): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210510_3 - [과제] 궤도 그리기\playGround.cpp(58,62): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210510_3 - [과제] 궤도 그리기\playGround.cpp(112,98): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210510_3 - [과제] 궤도 그리기\playGround.cpp(112,75): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210510_3 - [과제] 궤도 그리기\playGround.cpp(112,53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210510_3 - [과제] 궤도 그리기\playGround.cpp(112,39): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210510_3 - [과제] 궤도 그리기\playGround.cpp(117,90): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210510_3 - [과제] 궤도 그리기\playGround.cpp(117,70): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210510_3 - [과제] 궤도 그리기\playGround.cpp(117,55): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210510_3 - [과제] 궤도 그리기\playGround.cpp(117,40): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  windowAPI.vcxproj -> C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210510_3 - [과제] 궤도 그리기\x64\Debug\windowAPI.exe

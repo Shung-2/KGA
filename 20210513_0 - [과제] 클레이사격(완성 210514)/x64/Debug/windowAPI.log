@@ -1,0 +1,16 @@
+﻿  playGround.cpp
+C:\Users\zlzlf\OneDrive\바탕 화면\20210513_0 클레이사격\playGround.cpp(95,34): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210513_0 클레이사격\playGround.cpp(99,20): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210513_0 클레이사격\playGround.cpp(100,20): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210513_0 클레이사격\playGround.cpp(162,76): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210513_0 클레이사격\playGround.cpp(163,76): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210513_0 클레이사격\playGround.cpp(164,76): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210513_0 클레이사격\playGround.cpp(171,49): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210513_0 클레이사격\playGround.cpp(171,37): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210513_0 클레이사격\playGround.cpp(177,41): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210513_0 클레이사격\playGround.cpp(180,44): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210513_0 클레이사격\playGround.cpp(191,75): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210513_0 클레이사격\playGround.cpp(225,45): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210513_0 클레이사격\playGround.cpp(226,44): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210513_0 클레이사격\playGround.cpp(227,62): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+  windowAPI.vcxproj -> C:\Users\zlzlf\OneDrive\바탕 화면\20210513_0 클레이사격\x64\Debug\windowAPI.exe

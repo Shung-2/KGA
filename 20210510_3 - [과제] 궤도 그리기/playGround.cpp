@@ -92,7 +92,7 @@ void playGround::update()
 	*/
 
 	// 함수화 by 시영
-	bulletPreview();
+	//bulletPreview();
 	bulletMove();
 }
 

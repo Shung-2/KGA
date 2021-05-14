@@ -2,3 +2,5 @@ C:\Users\zlzlf\OneDrive\바탕 화면\10_2\x64\Debug\windowAPI.exe
 C:\Users\zlzlf\OneDrive\바탕 화면\10_2\x64\Debug\windowAPI.pdb
 C:\Users\zlzlf\OneDrive\바탕 화면\경일\내가 만든 자료\20210510_2 - 궤도 그리기\x64\Debug\windowAPI.exe
 C:\Users\zlzlf\OneDrive\바탕 화면\경일\내가 만든 자료\20210510_2 - 궤도 그리기\x64\Debug\windowAPI.pdb
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210510_3 - [과제] 궤도 그리기\x64\Debug\windowAPI.exe
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210510_3 - [과제] 궤도 그리기\x64\Debug\windowAPI.pdb
