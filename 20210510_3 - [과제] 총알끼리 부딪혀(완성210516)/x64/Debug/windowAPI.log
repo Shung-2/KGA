@@ -1,0 +1,10 @@
+﻿  playGround.cpp
+C:\Users\zlzlf\OneDrive\바탕 화면\20210510_0 - 총알끼리 부딪혀, 유도탄 제작용\playGround.h(3,1): warning C4005: 'PI': 매크로 재정의
+C:\Users\zlzlf\OneDrive\바탕 화면\20210510_0 - 총알끼리 부딪혀, 유도탄 제작용\utils.h(2): message : 'PI'의 이전 정의를 참조하십시오.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210510_0 - 총알끼리 부딪혀, 유도탄 제작용\playGround.cpp(47,51): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210510_0 - 총알끼리 부딪혀, 유도탄 제작용\playGround.cpp(48,52): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210510_0 - 총알끼리 부딪혀, 유도탄 제작용\playGround.cpp(82,98): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210510_0 - 총알끼리 부딪혀, 유도탄 제작용\playGround.cpp(82,75): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210510_0 - 총알끼리 부딪혀, 유도탄 제작용\playGround.cpp(82,53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210510_0 - 총알끼리 부딪혀, 유도탄 제작용\playGround.cpp(82,39): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  windowAPI.vcxproj -> C:\Users\zlzlf\OneDrive\바탕 화면\20210510_0 - 총알끼리 부딪혀, 유도탄 제작용\x64\Debug\windowAPI.exe

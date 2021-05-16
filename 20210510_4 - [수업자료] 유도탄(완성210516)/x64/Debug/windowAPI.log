@@ -1,0 +1,10 @@
+﻿  playGround.cpp
+C:\Users\zlzlf\OneDrive\바탕 화면\20210510_1 - 유도탄 제작용\playGround.h(4,1): warning C4005: 'PI': 매크로 재정의
+C:\Users\zlzlf\OneDrive\바탕 화면\20210510_1 - 유도탄 제작용\utils.h(2): message : 'PI'의 이전 정의를 참조하십시오.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210510_1 - 유도탄 제작용\playGround.cpp(36,22): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210510_1 - 유도탄 제작용\playGround.cpp(37,22): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210510_1 - 유도탄 제작용\playGround.cpp(61,46): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210510_1 - 유도탄 제작용\playGround.cpp(61,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210510_1 - 유도탄 제작용\playGround.cpp(62,44): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210510_1 - 유도탄 제작용\playGround.cpp(62,34): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  windowAPI.vcxproj -> C:\Users\zlzlf\OneDrive\바탕 화면\20210510_1 - 유도탄 제작용\x64\Debug\windowAPI.exe
