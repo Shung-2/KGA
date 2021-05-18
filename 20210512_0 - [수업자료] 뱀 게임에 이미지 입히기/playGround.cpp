@@ -1,11 +1,9 @@
 #include "stdafx.h"
 #include "playGround.h"
 
-
 playGround::playGround()
 {
 }
-
 
 playGround::~playGround()
 {
@@ -54,9 +52,6 @@ HRESULT playGround::init()
 void playGround::release()
 {
 	gameNode::release();
-
-
-
 }
 
 //여기에다 연산하세요 제에발
@@ -87,7 +82,7 @@ void playGround::render(HDC hdc)
 	for (int i = 0; i < SNAKEBODY; i++)
 	{
 		_mandarin->render(backDC, _snake[i].x, _snake[i].y);
-		//EllipseMakeCenter(backDC, _snake[i].x, _snake[i].y, _snake[i].radius * 2, _snake[i].radius * 2);
+		// EllipseMakeCenter(backDC, _snake[i].x, _snake[i].y, _snake[i].radius * 2, _snake[i].radius * 2);
 	}
 
 	
