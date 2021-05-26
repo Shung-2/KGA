@@ -1,14 +1,8 @@
-﻿  stdafx.cpp
-  gameNode.cpp
-C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210507_0 - [수업자료] 싸인 코사인 원본 자료\gameNode.cpp(70,36): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210507_0 - [수업자료] 싸인 코사인 원본 자료\gameNode.cpp(71,36): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  image.cpp
-  keyManager.cpp
-  playGround.cpp
-C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210507_0 - [수업자료] 싸인 코사인 원본 자료\playGround.cpp(52,73): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210507_0 - [수업자료] 싸인 코사인 원본 자료\playGround.cpp(52,56): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210507_0 - [수업자료] 싸인 코사인 원본 자료\playGround.cpp(52,40): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210507_0 - [수업자료] 싸인 코사인 원본 자료\playGround.cpp(52,32): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  playGround.cpp
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210507_0 - [수업자료] 싸인 코사인 원본 자료\playGround.cpp(51,73): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210507_0 - [수업자료] 싸인 코사인 원본 자료\playGround.cpp(51,56): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210507_0 - [수업자료] 싸인 코사인 원본 자료\playGround.cpp(51,40): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210507_0 - [수업자료] 싸인 코사인 원본 자료\playGround.cpp(51,32): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   winMain.cpp
 C:\Users\zlzlf\OneDrive\문서\GitHub\Kyungil\20210507_0 - [수업자료] 싸인 코사인 원본 자료\winMain.cpp(75,16): warning C4244: 'return': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   코드를 생성하고 있습니다...

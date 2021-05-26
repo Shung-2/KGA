@@ -1,7 +1,7 @@
 #pragma once
 #include "gameNode.h"
 #define PI 3.14156f
-#define BULLETMAX 3
+#define BULLETMAX 30
 
 struct tagObj
 {

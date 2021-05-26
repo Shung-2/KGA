@@ -27,8 +27,7 @@ class playGround : public gameNode
 private:
 	tagCannon _cannon;
 	tagBullet _bullet[BULLETMAX];
-	
-	
+		
 public:
 	playGround();
 	~playGround();
@@ -41,4 +40,3 @@ public:
 	void bulletFire();
 	void bulletMove();
 };
-

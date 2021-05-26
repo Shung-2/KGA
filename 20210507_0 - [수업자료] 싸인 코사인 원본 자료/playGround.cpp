@@ -37,8 +37,7 @@ void playGround::update()
 	if (KEYMANAGER->isStayKeyDown(VK_RIGHT)) _obj.angle -= 0.04f;
 	//                         스피드 값( R 값)
 	_obj.x += cosf(_obj.angle) * 3;
-	_obj.y += -sinf(_obj.angle) * 3;
-	
+	_obj.y += -sinf(_obj.angle) * 3;	
 }
 
 //여기에다 그려라 좀! 쫌!
@@ -50,7 +49,6 @@ void playGround::render(HDC hdc)
 	//================제발 이 사이에 좀 그립시다==========================
 
 	EllipseMakeCenter(backDC, _obj.x, _obj.y, _obj.radius * 2, _obj.radius * 2);
-	
 
 	//==================================================
 	//여기도 건들지마라

@@ -1,11 +1,9 @@
 #include "stdafx.h"
 #include "playGround.h"
 
-
 playGround::playGround()
 {
 }
-
 
 playGround::~playGround()
 {
@@ -28,9 +26,6 @@ HRESULT playGround::init()
 		_bullet[i].radius = 20;
 		_bullet[i].isFire = false;
 	}
-
-	
-
 	return S_OK;
 }
 
@@ -38,9 +33,6 @@ HRESULT playGround::init()
 void playGround::release()
 {
 	gameNode::release();
-
-
-
 }
 
 //여기에다 연산하세요 제에발
