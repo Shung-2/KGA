@@ -1,0 +1,10 @@
+﻿  pixelCollision.cpp
+C:\Users\zlzlf\OneDrive\바탕 화면\210531 37. 픽셀충돌\pixelCollision.cpp(19,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\210531 37. 픽셀충돌\pixelCollision.cpp(19,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\210531 37. 픽셀충돌\pixelCollision.cpp(20,15): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\210531 37. 픽셀충돌\pixelCollision.cpp(33,15): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\210531 37. 픽셀충돌\pixelCollision.cpp(37,76): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\210531 37. 픽셀충돌\pixelCollision.cpp(45,11): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\210531 37. 픽셀충돌\pixelCollision.cpp(49,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\210531 37. 픽셀충돌\pixelCollision.cpp(49,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  windowAPI.vcxproj -> C:\Users\zlzlf\OneDrive\바탕 화면\210531 37. 픽셀충돌\x64\Debug\windowAPI.exe
