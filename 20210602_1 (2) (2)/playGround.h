@@ -3,6 +3,8 @@
 #include "testScene.h"
 #include "testScene2.h"
 #include "Stage1.h"
+#include "Stage2.h"
+#include "Stage3.h"
 #include "Player.h"
 
 class playGround : public gameNode

@@ -157,6 +157,7 @@
     <ClInclude Include="enemy.h" />
     <ClInclude Include="enemyManager.h" />
     <ClInclude Include="gameNode.h" />
+    <ClInclude Include="IdelState.h" />
     <ClInclude Include="image.h" />
     <ClInclude Include="imageManager.h" />
     <ClInclude Include="keyManager.h" />
@@ -167,11 +168,15 @@
     <ClInclude Include="progressBar.h" />
     <ClInclude Include="randomFunction.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="RunState.h" />
     <ClInclude Include="saveLoadTest.h" />
     <ClInclude Include="sceneManager.h" />
     <ClInclude Include="singletonBase.h" />
     <ClInclude Include="spaceShip.h" />
     <ClInclude Include="Stage1.h" />
+    <ClInclude Include="Stage2.h" />
+    <ClInclude Include="Stage3.h" />
+    <ClInclude Include="State.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="testScene.h" />
@@ -191,6 +196,7 @@
     <ClCompile Include="enemy.cpp" />
     <ClCompile Include="enemyManager.cpp" />
     <ClCompile Include="gameNode.cpp" />
+    <ClCompile Include="IdelState.cpp" />
     <ClCompile Include="image.cpp" />
     <ClCompile Include="imageManager.cpp" />
     <ClCompile Include="keyManager.cpp" />
@@ -199,10 +205,14 @@
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="playGround.cpp" />
     <ClCompile Include="progressBar.cpp" />
+    <ClCompile Include="RunState.cpp" />
     <ClCompile Include="saveLoadTest.cpp" />
     <ClCompile Include="sceneManager.cpp" />
     <ClCompile Include="spaceShip.cpp" />
     <ClCompile Include="Stage1.cpp" />
+    <ClCompile Include="Stage2.cpp" />
+    <ClCompile Include="Stage3.cpp" />
+    <ClCompile Include="State.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

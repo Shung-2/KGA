@@ -20,6 +20,8 @@ HRESULT playGround::init()
 	SCENEMANAGER->addScene("INTRO", new testScene);
 	SCENEMANAGER->addScene("OPTION", new testScene2);
 	SCENEMANAGER->addScene("STAGE 1", new Stage1);
+	SCENEMANAGER->addScene("STAGE 2", new Stage2);
+	SCENEMANAGER->addScene("STAGE 3", new Stage3);
 	SCENEMANAGER->changeScene("INTRO");
 
 	st = new Stage1;
@@ -41,6 +43,21 @@ void playGround::update()
 {
 	gameNode::update();
 	SCENEMANAGER->update();	
+
+	if (KEYMANAGER->isOnceKeyDown(VK_F1))
+	{
+		SCENEMANAGER->changeScene("STAGE 1");
+	}
+
+	if (KEYMANAGER->isOnceKeyDown(VK_F2))
+	{
+		SCENEMANAGER->changeScene("STAGE 2");
+	}
+
+	if (KEYMANAGER->isOnceKeyDown(VK_F3))
+	{
+		SCENEMANAGER->changeScene("STAGE 3");
+	}
 }
 
 void playGround::render()
