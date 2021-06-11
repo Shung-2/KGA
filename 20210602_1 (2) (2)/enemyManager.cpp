@@ -7,8 +7,6 @@ HRESULT enemyManager::init()
 	_bullet = new bullet;
 	_bullet->init("bullet", 30, 700);
 
-	
-
 	return S_OK;
 }
 
@@ -24,8 +22,7 @@ void enemyManager::update()
 	}
 	minionBulletFire();
 	_bullet->update();
-	collision();
-	
+	collision();	
 }
 
 void enemyManager::render()
@@ -34,7 +31,6 @@ void enemyManager::render()
 	{
 		(*_viMinion)->render();
 	}
-
 	_bullet->render();
 }
 

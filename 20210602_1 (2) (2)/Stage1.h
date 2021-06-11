@@ -7,13 +7,14 @@ class Player;
 class Stage1 : public gameNode
 {
 private:
-	Player* _Player;
-	//Stage1* st;
 
-	RECT _Stage1_Obj[4];
+	Player* _Player;
+
+	RECT _Stage1_Obj[5];
 	RECT _Stage1_Rand[3];
 
 public:
+
 	Stage1();
 	~Stage1();
 
@@ -22,6 +23,8 @@ public:
 	virtual void update();
 	virtual void render();
 
-	void setPlayerAddressLink(Player* pl) { _Player = pl; }
-	//RECT getRECT_Stage1_Rand() { return _Stage1_Rand[] }
+	void setPlayerAddressLink(Player* pl)
+	{
+		_Player = pl;
+	}
 };

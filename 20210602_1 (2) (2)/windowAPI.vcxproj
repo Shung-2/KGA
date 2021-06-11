@@ -160,6 +160,8 @@
     <ClInclude Include="IdelState.h" />
     <ClInclude Include="image.h" />
     <ClInclude Include="imageManager.h" />
+    <ClInclude Include="JumpState.h" />
+    <ClInclude Include="Jump_FallState.h" />
     <ClInclude Include="keyManager.h" />
     <ClInclude Include="minion.h" />
     <ClInclude Include="pixelCollision.h" />
@@ -199,6 +201,8 @@
     <ClCompile Include="IdelState.cpp" />
     <ClCompile Include="image.cpp" />
     <ClCompile Include="imageManager.cpp" />
+    <ClCompile Include="JumpState.cpp" />
+    <ClCompile Include="Jump_FallState.cpp" />
     <ClCompile Include="keyManager.cpp" />
     <ClCompile Include="minion.cpp" />
     <ClCompile Include="pixelCollision.cpp" />

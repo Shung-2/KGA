@@ -14,8 +14,7 @@ HRESULT playGround::init()
 {
 	gameNode::init(true);
 
-	IMAGEMANAGER->addImage("배경", "background.bmp", WINSIZEX, WINSIZEY,
-		true, RGB(255, 0, 255));
+	IMAGEMANAGER->addImage("배경", "background.bmp", WINSIZEX, WINSIZEY, true, RGB(255, 0, 255));
 	
 	SCENEMANAGER->addScene("INTRO", new testScene);
 	SCENEMANAGER->addScene("OPTION", new testScene2);
@@ -26,9 +25,6 @@ HRESULT playGround::init()
 
 	st = new Stage1;
 	st->setPlayerAddressLink(pl);
-
-	//pl = new Player;
-
 
 	return S_OK;
 }

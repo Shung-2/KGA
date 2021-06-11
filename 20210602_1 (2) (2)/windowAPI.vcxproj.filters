@@ -186,6 +186,12 @@
     <ClInclude Include="Stage3.h">
       <Filter>playGround\Stage</Filter>
     </ClInclude>
+    <ClInclude Include="JumpState.h">
+      <Filter>playGround\Player\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="Jump_FallState.h">
+      <Filter>playGround\Player\PlayerState</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -289,6 +295,12 @@
     </ClCompile>
     <ClCompile Include="Stage3.cpp">
       <Filter>playGround\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpState.cpp">
+      <Filter>playGround\Player\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="Jump_FallState.cpp">
+      <Filter>playGround\Player\PlayerState</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

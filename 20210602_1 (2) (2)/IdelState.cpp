@@ -2,69 +2,98 @@
 #include "Player.h"
 #include "IdelState.h"
 #include "RunState.h"
+#include "JumpState.h"
+#include "Jump_FallState.h"
 
 State* IdelState::inputHandle(Player* player)
 {
+	/* _dir | TRUE = RIGHT, FALSE = LEFT */
 	if (KEYMANAGER->isOnceKeyDown(VK_RIGHT) || KEYMANAGER->isStayKeyDown(VK_RIGHT))
 	{
+		player->getTagPlayer()->_dir = true;
 		return new RunState();
 	}
 
 	if (KEYMANAGER->isOnceKeyDown(VK_LEFT) || KEYMANAGER->isStayKeyDown(VK_LEFT))
 	{
+		player->getTagPlayer()->_dir = false;
 		return new RunState();
+	}
+
+	if (KEYMANAGER->isStayKeyDown(VK_DOWN))
+	{
+		if (KEYMANAGER->isOnceKeyDown('X'))
+		{
+			player->getTagPlayer()->_isDownJump = true;
+			player->getTagPlayer()->_isLanding = false;
+			return new Jump_FallState();
+		}
+	}
+
+	if (KEYMANAGER->isOnceKeyDown('X'))
+	{
+		return new JumpState();
 	}
 
 	return nullptr;
 }
 
 void IdelState::update(Player* player)
-{
-	// 이미지 프레임, 이 상태에서 연산이 필요한 것들
-	// player->getTagPlayer()->_player_img->frameRender(getMemDC(), _player._Player.left, _player._Player.top);
-	// _player._player_img->frameRender(getMemDC(), _player._Player.left, _player._Player.top);
-	
+{	
+	player->getTagPlayer()->_y -= player->getTagPlayer()->_jumpPower;
+	player->getTagPlayer()->_jumpPower -= player->getTagPlayer()->_grvity;
+
 	frameCount++;
-	if (frameCount >= 8)
+
+	/* _dir | TRUE = RIGHT, FALSE = LEFT */
+	if (player->getTagPlayer()->_dir)
 	{
-		frameCount = 0;
-		if (player->getTagPlayer()->_Player_img->getFrameX() >=
-			player->getTagPlayer()->_Player_img->getMaxFrameX())
+		if (frameCount >= 10)
 		{
-			player->getTagPlayer()->_Player_img->setFrameX(0);
+			frameCount = 0;
+			if (player->getTagPlayer()->_Player_img->getFrameX() >=
+				player->getTagPlayer()->_Player_img->getMaxFrameX())
+			{
+				player->getTagPlayer()->_Player_img->setFrameX(0);
+			}
+			player->getTagPlayer()->_Player_img->setFrameX(player->getTagPlayer()->_Player_img->getFrameX() + 1);
+			player->getTagPlayer()->_Player_img->setFrameY(0);
 		}
-		player->getTagPlayer()->_Player_img->setFrameX(player->getTagPlayer()->_Player_img->getFrameX() + 1);
-		player->getTagPlayer()->_Player_img->setFrameY(0);
 	}
-
-
-
-
-	//if (_state == RIGHT_IDLE)
-	//{
-	//	_player_img->setFrameY(0);
-	//	_player_img->setFrameX(_index);
-	//	_index++;
-	//	if (_index >= 4) _index = 0;
-	//}
-
-	//if (!player->_direction) //플레이어에서 방향을 가져옴.
-	//{
-	//	frameCount++;
-	//	if (frameCount >= 10) {
-	//		frameCount = 0;
-	//		if (player->img->getFrameX() >= player->img->getMaxFrameX()) {
-	//			player->img->setFrameX(0);
-	//		}
-	//		player->img->setFrameX(player->img->getFrameX() + 1);
-	//		player->img->setFrameY(0);
-	//	}
-	//}
+	else
+	{
+		if (frameCount >= 10)
+		{
+			frameCount = 0;
+			if (player->getTagPlayer()->_Player_img->getFrameX() == 0)
+			{
+				player->getTagPlayer()->_Player_img->setFrameX(
+					player->getTagPlayer()->_Player_img->getMaxFrameX()
+				);
+			}
+			player->getTagPlayer()->_Player_img->setFrameX(player->getTagPlayer()->_Player_img->getFrameX() - 1);
+			player->getTagPlayer()->_Player_img->setFrameY(1);
+		}
+	}
 }
 
 void IdelState::enter(Player* player)
-{
-	player->getTagPlayer()->_Player_img = IMAGEMANAGER->findImage("PLAYER IDEL");
+{	
+	/* 이미지 로드 */
+	player->getTagPlayer()->_Player_img = IMAGEMANAGER->findImage("PLAYER IDEL");	
+
+	/* 이미지 프레임 방향 초기화 */
+	/* _dir | TRUE = RIGHT, FALSE = LEFT */
+	if (player->getTagPlayer()->_dir)
+	{
+		player->getTagPlayer()->_Player_img->setFrameX(0);
+		player->getTagPlayer()->_Player_img->setFrameY(0);
+	}
+	else
+	{
+		player->getTagPlayer()->_Player_img->setFrameX(player->getTagPlayer()->_Player_img->getMaxFrameX());
+		player->getTagPlayer()->_Player_img->setFrameY(1);
+	}
 	return;
 }
 

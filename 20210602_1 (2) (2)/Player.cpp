@@ -22,15 +22,15 @@ Player::~Player()
 }
 
 HRESULT Player::init()
-{
-	_state = new IdelState();
-	_state->enter(this);
-	
+{	
 	/* INIT */
 	set_Player();
 
 	_player._Player_img = new image;
 	_player._Player_img = IMAGEMANAGER->findImage("PLAYER IDEL");
+
+	_state = new IdelState();
+	_state->enter(this);
 
 	return S_OK;
 }
@@ -41,89 +41,65 @@ void Player::release()
 
 void Player::update()
 {
-	InputHandle();
-	_state->update(this);
-
 	/* UPDATE */
 	get_Player_Key();
-	get_Player_Move();
-	
+
 	/* COLLISION */
 	On_Screen();
 
-	/* RE_RENDER */
-	_player._Player = RectMakeCenter(_player._x, _player._y, 30, 65);
+	/* 상태 패턴 */
+	InputHandle();
+	_state->update(this);
+
+	/* RE_RENDER 충돌렉트 & 이미지렉트 */
+	_player._rc = RectMakeCenter(_player._x, _player._y, 30, 65);
+	_player._rcimg = RectMakeCenter(_player._x, _player._y, 80, 190);
 }
 
 void Player::render()
 {
-	_player._Player_img->frameRender(getMemDC(), _player._Player.left, _player._Player.top);
-	//Rectangle(getMemDC(), _player._Player);
+	_player._Player_img->frameRender(getMemDC(), _player._rcimg.left, _player._rcimg.top);
+	//Rectangle(getMemDC(), _player._rc);
 }
 
 void Player::set_Player()
 {
-	_player._Player = RectMakeCenter(WINSIZEX / 2 - 300, WINSIZEY / 2 + 360, 30, 65);
-	_player._x = (_player._Player.right + _player._Player.left) / 2;
-	_player._y = (_player._Player.bottom + _player._Player.top) / 2;
+	_player._rc = RectMakeCenter(WINSIZEX / 2 - 200, WINSIZEY / 2 + 260, 30, 65);
+	_player._x = (_player._rc.right + _player._rc.left) / 2;
+	_player._y = (_player._rc.bottom + _player._rc.top) / 2;
 	_player._speed = 5;
-	_player._jump_Count = 0;
-	_player_gravity = false;
-	_player._is_Down_Jump = false;
+	_player._jumpCount = 0;
+	_player._grvity = 0.5f;
 
-	_Frame_Index = 0;
+	_player._isJump = false;
+	_player._isDownJump = false;
+	_player._dir = true;
+	_player._isLanding = false;
 
 	/* PLAYER IMAGE */
-	IMAGEMANAGER->addFrameImage("PLAYER IDEL", "cnx/! player/bmp/idel.bmp", 160, 132, 4, 2, true, RGB(255, 0, 255));
+	IMAGEMANAGER->addFrameImage("PLAYER IDEL", "cnx/! player/bmp/idel.bmp", 320, 264, 4, 2, true, RGB(255, 0, 255));
+	IMAGEMANAGER->addFrameImage("PLAYER RUN", "cnx/! player/bmp/run.bmp", 1188, 268, 11, 2, true, RGB(255, 0, 255));
+	IMAGEMANAGER->addFrameImage("PLAYER JUMP", "cnx/! player/bmp/jump.bmp", 500, 352, 5, 2, true, RGB(255, 0, 255));
 
 }
 
 void Player::get_Player_Key()
 {
-	/* RIGHT MOVE */
-	if (KEYMANAGER->isStayKeyDown(VK_RIGHT))
-	{
-		_player._x += _player._speed;
-	}
-
-	/* LEFT MOVE */
-	if (KEYMANAGER->isStayKeyDown(VK_LEFT))
-	{
-		_player._x -= _player._speed;
-	}
-
 	/* DOWN JUMP */
-	if (KEYMANAGER->isStayKeyDown(VK_DOWN))
-	{
-		if (KEYMANAGER->isOnceKeyDown(0x58) && !_player._is_Jump)
-		{
-			_player._is_Jump = true;
-			_player._is_Down_Jump = true;
-			_player._jump_Count = 0.0f;
-			_player._jump_Power = 0.0f;
-			_player._gravity = 0.5f;
-		}
-	}
+	//if (KEYMANAGER->isStayKeyDown(VK_DOWN))
+	//{
+	//	if (KEYMANAGER->isOnceKeyDown(0x58) && !_player._is_Jump)
+	//	{
+	//		//_player._is_Jump = true;
+	//		_player._is_Down_Jump = true;
+	//		//_player._jump_Count = 0;
+	//		//_player._jump_Power = 0.0f;
+	//		_player._gravity = 0.5f;
+	//		_player._jump_Count++;
+	//	}
+	//}
 
-	/* JUMP */
-	if (KEYMANAGER->isOnceKeyDown(0x58) && _player._jump_Count <= 0)
-	{
-		_player._jump_Count++;
-		_player._gravity = 0.5f;
-		_player._jump_Power = 20.0f;
-		_player._is_Jump = true;
-		_player_gravity = true;
-	}
-}
-
-void Player::get_Player_Move()
-{
-	/* JUMP-ING STAGE*/
-	if (_player._is_Jump || _player_gravity)
-	{
-		_player._y -= _player._jump_Power;
-		_player._jump_Power -= _player._gravity;
-	}
+	// 땅에 닿지 않았을 떄 점프를 할 수 없다...........?????????????????
 }
 
 void Player::On_Screen()
@@ -144,6 +120,6 @@ void Player::On_Screen()
 	/* UP */
 	if (_player._y < 0)
 	{
-		_player._y -= _player._jump_Power;
+		_player._y -= _player._jumpPower;
 	}
 }
