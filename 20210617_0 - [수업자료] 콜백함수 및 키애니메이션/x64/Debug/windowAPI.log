@@ -1,0 +1,86 @@
+﻿  stdafx.cpp
+  action.cpp
+  animation.cpp
+  battle.cpp
+  bullets.cpp
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\bullets.cpp(39,49): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\bullets.cpp(44,45): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\bullets.cpp(44,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\bullets.cpp(59,57): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\bullets.cpp(59,43): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\bullets.cpp(129,57): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\bullets.cpp(129,43): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\bullets.cpp(145,57): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\bullets.cpp(145,43): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\bullets.cpp(217,45): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\bullets.cpp(217,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\bullets.cpp(229,57): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\bullets.cpp(229,43): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  button.cpp
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\button.cpp(20,7): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\button.cpp(21,7): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  effect.cpp
+  effectManager.cpp
+  gameNode.cpp
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\gameNode.cpp(98,36): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\gameNode.cpp(99,36): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\gameNode.cpp(90,14): warning C4101: 'hdc' :참조되지 않은 지역 변수입니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\gameNode.cpp(89,14): warning C4101: 'ps' :참조되지 않은 지역 변수입니다.
+  image.cpp
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\image.cpp(75,28): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\image.cpp(133,28): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\image.cpp(189,28): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\image.cpp(263,14): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\image.cpp(262,14): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\image.cpp(279,14): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\image.cpp(278,14): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\image.cpp(504,34): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\image.cpp(504,19): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\image.cpp(512,44): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\image.cpp(512,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\image.cpp(517,44): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\image.cpp(517,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  imageManager.cpp
+  keyAniManager.cpp
+  keyManager.cpp
+  knight.cpp
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\knight.cpp(23,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\knight.cpp(23,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\knight.cpp(102,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\knight.cpp(102,25): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\knight.cpp(107,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\knight.cpp(107,25): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  knightScene.cpp
+  playGround.cpp
+  progressBar.cpp
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\progressBar.cpp(15,39): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\progressBar.cpp(42,9): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  sceneManager.cpp
+  selectScene.cpp
+  ship.cpp
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\ship.cpp(18,7): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\ship.cpp(19,7): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\ship.cpp(23,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\ship.cpp(23,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\ship.cpp(26,36): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\ship.cpp(53,62): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\ship.cpp(100,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\ship.cpp(100,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  soundManager.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  starScene.cpp
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\starScene.cpp(48,75): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\starScene.cpp(48,53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  timeManager.cpp
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\timeManager.cpp(57,39): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\timeManager.cpp(61,40): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\timeManager.cpp(65,40): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  timer.cpp
+  txtData.cpp
+  utils.cpp
+  winMain.cpp
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\winMain.cpp(91,16): warning C4244: 'return': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\txtData.cpp(51): warning C4172: 지역 변수 또는 임시: str의 주소를 반환하고 있습니다.
+  windowAPI.vcxproj -> C:\Users\zlzlf\OneDrive\바탕 화면\20210617_0\x64\Debug\windowAPI.exe

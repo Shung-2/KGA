@@ -1,0 +1,3 @@
+C:\Users\zlzlf\OneDrive\바탕 화면\사운드매니저 과제 제작용\과제 제작용 PJ\x64\Debug\windowAPI.exe
+C:\Users\zlzlf\OneDrive\바탕 화면\과제 제작용 PJ\x64\Debug\windowAPI.exe
+C:\Users\zlzlf\OneDrive\바탕 화면\과제 제작용 PJ\x64\Debug\windowAPI.pdb

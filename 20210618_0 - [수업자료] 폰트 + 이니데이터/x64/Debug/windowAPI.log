@@ -1,0 +1,4 @@
+﻿  playGround.cpp
+C:\Users\zlzlf\OneDrive\바탕 화면\20210618_0\playGround.cpp(84,48): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\바탕 화면\20210618_0\playGround.cpp(96,108): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  windowAPI.vcxproj -> C:\Users\zlzlf\OneDrive\바탕 화면\20210618_0\x64\Debug\windowAPI.exe
