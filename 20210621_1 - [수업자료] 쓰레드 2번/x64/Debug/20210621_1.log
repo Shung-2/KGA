@@ -1,0 +1,3 @@
+﻿  consoleMain.cpp
+C:\Users\zlzlf\OneDrive\바탕 화면\쓰으레에드으\20210621_1\consoleMain.cpp(77,42): warning C4244: '인수': 'float'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  20210621_1.vcxproj -> C:\Users\zlzlf\OneDrive\바탕 화면\쓰으레에드으\20210621_1\x64\Debug\20210621_1.exe
